@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@100;200;300&display=swap');
+
+@font-face {
+	font-family: 'Neue Machina';
+	src: url('/assets/fonts/neue-machina-regular.otf');
+}
+* {
+	box-sizing: border-box;
+}
+html {
+	height: 100vh;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	background: rgb(2, 0, 9);
+	color: #e6d8ff;
+	background: rgb(70, 9, 179);
+	background: linear-gradient(300deg, rgba(70, 9, 179, 1) 0%, rgba(2, 0, 9, 1) 30%, rgba(2, 0, 9, 1) 50%, rgba(2, 0, 9, 1) 70%, rgba(70, 9, 179, 1) 100%);
+}
+
+.main {
+	margin: 1rem;
+	padding: 1rem;
+	border-radius: 0.4rem;
+	border: 1px solid #6c19ff;
+}

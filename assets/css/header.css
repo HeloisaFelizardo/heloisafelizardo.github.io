@@ -1,0 +1,90 @@
+.header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.header .photo {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border: 2px solid #ff8900;
+}
+
+.header .title {
+	text-align: center;
+	font-weight: 300;
+	font-family: 'Neue Machina';
+	color: #19ff44;
+}
+
+.informations {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.informations p {
+	margin: 0.5rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	font-size: 1.125rem;
+}
+
+.informations p::before {
+	content: '';
+	width: 1rem;
+	height: 1rem;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	margin-right: 1rem;
+}
+
+.informations .job::before {
+	background-image: url('/assets/img/icons/job.svg');
+}
+
+.informations .location::before {
+	background-image: url('/assets/img/icons/location.svg');
+}
+
+.informations .phone::before {
+	background-image: url('/assets/img/icons/phone.svg');
+}
+
+.informations .email::before {
+	background-image: url('/assets/img/icons/email.svg');
+}
+
+/* Exemplo de background gradiente em svg
+.main::before {
+	content: '';
+	background-image: url('/assets/img/background.svg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: inline-block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 140vw;
+	height: 100vh;
+	z-index: -1;
+}
+.main::after {
+	content: '';
+	background-image: url('/assets/img/background.svg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: inline-block;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 140vw;
+	height: 100vh;
+	z-index: -1;
+	transform: rotate(180deg);
+}
+ */
