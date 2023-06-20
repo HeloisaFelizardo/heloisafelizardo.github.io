@@ -12,6 +12,8 @@ html {
 	height: 100vh;
 }
 body {
+	display: flex;
+	justify-content: center;
 	font-family: 'Open Sans', sans-serif;
 	background: rgb(2, 0, 9);
 	color: #e6d8ff;
