@@ -9,21 +9,25 @@
 	box-sizing: border-box;
 }
 html {
-	height: 100vh;
-}
-body {
-	display: flex;
-	justify-content: center;
-	font-family: 'Open Sans', sans-serif;
-	background: rgb(2, 0, 9);
-	color: #e6d8ff;
-	background: rgb(70, 9, 179);
 	background: linear-gradient(300deg, rgba(70, 9, 179, 1) 0%, rgba(2, 0, 9, 1) 30%, rgba(2, 0, 9, 1) 50%, rgba(2, 0, 9, 1) 70%, rgba(70, 9, 179, 1) 100%);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #e1d7ff;
 }
 
 .main {
 	margin: 1rem;
 	padding: 1rem;
-	border-radius: 0.4rem;
+	border-radius: 1rem;
 	border: 1px solid #6c19ff;
+}
+@media only screen and (min-width: 768px) {
+	.main {
+		max-width: 1024px;
+		margin: 1rem auto;
+	}
 }

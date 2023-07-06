@@ -1,0 +1,25 @@
+.languages {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 0 1rem 1rem 1rem;
+	padding: 0;
+	list-style: none;
+}
+
+.languages li {
+	padding: 1rem;
+	font-weight: 500;
+}
+.languages li::before {
+	content: '';
+	display: inline-block;
+	width: 1rem;
+	height: 1rem;
+	margin-right: 0.5rem;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	background-image: url('/assets/img/icons/done.svg');
+}

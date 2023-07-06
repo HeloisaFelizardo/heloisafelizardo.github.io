@@ -2,6 +2,21 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	position: relative;
+}
+
+.header::after {
+	content: '';
+	display: inline-block;
+	position: absolute;
+	width: 2rem;
+	height: 1rem;
+	top: 0;
+	right: 0;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	background-image: url('/assets/img/icons/menup.svg');
 }
 
 .header .photo {
@@ -88,3 +103,27 @@
 	transform: rotate(180deg);
 }
  */
+
+@media only screen and (min-width: 768px) {
+	.header {
+		display: grid;
+		grid-template-areas:
+			'photo title'
+			'photo informations';
+	}
+
+	.header .photo {
+		grid-area: photo;
+		margin: 0 auto;
+	}
+
+	.header .title {
+		grid-area: title;
+		text-align: start;
+		max-width: 200px;
+	}
+
+	.header .informations {
+		grid-area: informations;
+	}
+}
