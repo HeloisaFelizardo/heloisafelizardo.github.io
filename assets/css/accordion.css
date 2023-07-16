@@ -25,7 +25,6 @@
 	color: #fff;
 	font-weight: 700;
 }
-
 .accordion.open h2 {
 	color: #b36812;
 	text-transform: uppercase;
@@ -35,7 +34,6 @@
 .accordion .trigger:hover {
 	cursor: pointer;
 }
-
 .accordion .trigger::after {
 	content: '';
 	display: inline-block;
@@ -50,16 +48,13 @@
 .accordion h2 {
 	transition: all;
 }
-
 .accordion.open .trigger::after {
 	transform: scaleY(-1);
 	filter: brightness(0) saturate(100%) invert(38%) sepia(99%) saturate(447%) hue-rotate(352deg) brightness(95%) contrast(92%);
 }
-
 .accordion.transition {
 	transition: max-height 0.2s ease-out;
 }
-
 .accordion .content {
 	overflow: hidden;
 	max-height: 0;
@@ -76,7 +71,6 @@
 	opacity: 1;
 	transition: max-height 0.2s ease-in, opacity 0.2s ease-in;
 }
-
 @keyframes fade-in {
 	from {
 		opacity: 0;
@@ -85,7 +79,6 @@
 		opacity: 1;
 	}
 }
-
 .accordion.open .content {
 	animation: fade-in 0.5s ease-in;
 }

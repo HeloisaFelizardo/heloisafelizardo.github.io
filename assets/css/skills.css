@@ -19,7 +19,6 @@
 .skills .personal ul {
 	padding: 0;
 	margin: 0.5rem 0;
-
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -32,7 +31,7 @@
 	color: #16003f;
 	padding: 0.5rem 1rem;
 	margin: 0.3rem;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 0.875rem;
 	line-height: 1.25rem;
 }

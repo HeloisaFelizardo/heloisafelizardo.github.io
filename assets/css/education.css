@@ -3,7 +3,6 @@
 	grid-template-columns: 1fr 1fr 1fr;
 	align-content: space-around;
 }
-
 .education li {
 	background: #141414;
 	border-radius: 0.5rem;
@@ -14,7 +13,6 @@
 	flex-direction: column;
 	justify-content: space-between;
 }
-
 .education h4 {
 	text-transform: uppercase;
 	font-size: 1.125rem;
@@ -25,7 +23,6 @@
 	font-size: 0.75rem;
 	font-weight: 400;
 }
-
 .education .institution {
 	text-transform: uppercase;
 	color: #8f8f8f;
