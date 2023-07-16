@@ -23,7 +23,7 @@
 	width: 200px;
 	height: 200px;
 	border-radius: 50%;
-	border: 2px solid #ff8900;
+	border: 1px solid #4609b3;
 }
 
 .header .title {
@@ -120,7 +120,7 @@
 	.header .title {
 		grid-area: title;
 		text-align: start;
-		max-width: 200px;
+		max-width: 500px;
 	}
 
 	.header .informations {

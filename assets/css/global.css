@@ -18,11 +18,36 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	color: #e1d7ff;
 }
-
+h2 {
+	font-size: 1.125rem;
+	text-align: left;
+	margin: 0;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+h3 {
+	font-size: 0.875rem;
+	margin: 0 0 0.5rem 0;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #19ff44;
+}
+p {
+	line-height: 1.5em;
+	color: #a3a3a3;
+}
+a {
+	color: #f5f5f5;
+	text-decoration: none;
+	font-size: 0.875rem;
+}
+a:hover {
+	text-decoration: underline;
+}
 .main {
 	margin: 1rem;
 	padding: 1rem;
-	border-radius: 1rem;
+	border-radius: 0.5rem;
 	border: 1px solid #6c19ff;
 }
 @media only screen and (min-width: 768px) {

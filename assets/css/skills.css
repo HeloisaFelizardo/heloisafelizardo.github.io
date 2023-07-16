@@ -1,0 +1,50 @@
+.skills {
+	padding: 1rem;
+}
+.skills .personal,
+.skills .tools {
+	background: #141414;
+	border-radius: 0.5rem;
+	border-color: #090909;
+	padding: 1rem;
+	margin: 0.5rem 1rem 1.5rem;
+}
+.skills .tools {
+	margin-bottom: 2rem;
+}
+
+.skills .tools ul,
+.skills .personal ul {
+	padding: 0;
+	margin: 0.5rem 0;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.skills .tools ul li,
+.skills .personal ul li {
+	background-color: #c5b1ff;
+	border-radius: 0.5rem;
+	color: #16003f;
+	padding: 0.5rem 1rem;
+	margin: 0.3rem;
+	font-weight: 600;
+	font-size: 0.875rem;
+	line-height: 1.25rem;
+}
+
+@media only screen and (min-width: 768px) {
+	.skills {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		align-content: space-around;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.skills .personal,
+	.skills .tools {
+		margin: 0.5rem 0 1.5rem;
+	}
+}

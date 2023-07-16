@@ -2,29 +2,36 @@
 	display: flex;
 	flex-direction: column;
 	border: 1px solid #fff;
-	border-radius: 1rem;
+	border-radius: 0.5rem;
 	margin: 1rem 0 0 0;
 	transition: 0.2s;
 	color: #fff;
 }
 .accordion.open,
 .accordion:hover {
-	background-color: #5635b4;
-	border-color: #5635b4;
+	background-color: #4609b3;
+	border-color: #16003f;
 }
 .accordion .trigger {
-	font-size: 1.5rem;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
-	padding: 1rem 2rem;
+	padding: 1rem;
 	background-color: transparent;
+	border-radius: 0.5rem;
 	border: none;
+	border-bottom: 1px solid #16003f;
 	color: #fff;
 	font-weight: 700;
 }
 
+.accordion.open h2 {
+	color: #b36812;
+	text-transform: uppercase;
+	font-weight: 400;
+	transition: opacity 0.2s ease-out;
+}
 .accordion .trigger:hover {
 	cursor: pointer;
 }
@@ -40,9 +47,13 @@
 	background-image: url('/assets/img/icons/arrow.svg');
 	transition: transform 0.2s;
 }
+.accordion h2 {
+	transition: all;
+}
 
 .accordion.open .trigger::after {
 	transform: scaleY(-1);
+	filter: brightness(0) saturate(100%) invert(38%) sepia(99%) saturate(447%) hue-rotate(352deg) brightness(95%) contrast(92%);
 }
 
 .accordion.transition {
@@ -55,11 +66,15 @@
 	opacity: 0;
 	transition: max-height 0.2s ease-out, opacity 0.2s ease-out;
 }
-
+.accordion .content ul {
+	padding: 1rem;
+	list-style: none;
+	margin: 0;
+}
 .accordion.open .content {
 	max-height: 500px; /* Um valor suficientemente grande para acomodar todo o conteúdo */
 	opacity: 1;
-	transition: max-height 0.5s ease-in, opacity 0.2s ease-in;
+	transition: max-height 0.2s ease-in, opacity 0.2s ease-in;
 }
 
 @keyframes fade-in {

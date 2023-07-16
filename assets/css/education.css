@@ -1,0 +1,46 @@
+.education {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	align-content: space-around;
+}
+
+.education li {
+	background: #141414;
+	border-radius: 0.5rem;
+	border-color: #090909;
+	padding: 1rem;
+	margin: 0.5rem 1rem 1.5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.education h4 {
+	text-transform: uppercase;
+	font-size: 1.125rem;
+	font-weight: 700;
+}
+.education .period {
+	color: #666;
+	font-size: 0.75rem;
+	font-weight: 400;
+}
+
+.education .institution {
+	text-transform: uppercase;
+	color: #8f8f8f;
+	font-weight: 400;
+	font-size: 1.125rem;
+	align-self: baseline;
+}
+@media only screen and (max-width: 768px) {
+	.education {
+		grid-template-columns: 1fr;
+	}
+	.education li {
+		margin: 1rem 0;
+	}
+	.education .title {
+		margin-bottom: 0.5rem;
+	}
+}
