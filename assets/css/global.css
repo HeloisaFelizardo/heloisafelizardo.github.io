@@ -24,6 +24,7 @@ h2 {
 	margin: 0;
 	text-transform: uppercase;
 	font-weight: 400;
+	line-height: 1.5rem;
 }
 h3 {
 	font-size: 0.875rem;
@@ -31,9 +32,12 @@ h3 {
 	text-transform: uppercase;
 	font-weight: 400;
 	color: #19ff44;
+	line-height: 1.5rem;
 }
 p {
-	line-height: 1.5em;
+	line-height: 1.25rem;
+	font-size: 0.875rem;
+	font-weight: 400;
 	color: #a3a3a3;
 }
 a {
@@ -48,7 +52,7 @@ a:hover {
 	margin: 1rem;
 	padding: 1rem;
 	border-radius: 0.5rem;
-	border: 1px solid #6c19ff;
+	border: 1px solid #4609b3;
 }
 @media only screen and (min-width: 768px) {
 	.main {

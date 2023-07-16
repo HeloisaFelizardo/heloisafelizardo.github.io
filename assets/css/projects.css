@@ -31,6 +31,7 @@
 	font-size: 1.25rem;
 	text-transform: capitalize;
 	margin-bottom: 0.5rem;
+	line-height: 1.6rem;
 }
 .projects li .title.github::before {
 	content: '';
@@ -44,10 +45,6 @@
 	background-image: url('/assets/img/icons/github.svg');
 }
 .projects p {
-	line-height: 1.25rem;
-
-	font-size: 0.875rem;
-	font-weight: 400;
 	margin: 0.5rem 0;
 }
 .accordion .content .projects li ul {
