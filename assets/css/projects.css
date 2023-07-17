@@ -11,16 +11,16 @@
 	margin: 0 0 1.5rem 0;
 	padding: 1rem;
 	background: #141414;
-	border-radius: 0.5rem;
+	border-radius: 5px;
 	border-color: #090909;
 }
 .projects li ul li {
 	padding: 0;
 	font-size: 0.875rem;
 	background-color: #c5b1ff;
-	border-radius: 0.5rem;
+	border-radius: 5px;
 	color: #16003f;
-	padding: 0.5rem 1rem;
+	padding: 5px 10px;
 	margin: 0.5rem;
 	font-weight: 500;
 	font-size: 0.875rem;

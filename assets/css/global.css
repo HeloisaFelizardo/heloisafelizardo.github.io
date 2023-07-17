@@ -56,7 +56,7 @@ a:hover {
 .main {
 	margin: 1rem;
 	padding: 1rem;
-	border-radius: 0.5rem;
+	border-radius: 5px;
 	border: 1px solid #4609b3;
 }
 @media only screen and (min-width: 768px) {
