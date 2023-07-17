@@ -46,7 +46,7 @@
 	padding: 0;
 }
 .informations li {
-	margin: 0.2rem 0.5rem;
+	margin: 0.3rem 0.5rem;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -120,6 +120,7 @@
 		grid-template-areas:
 			'photo title'
 			'photo informations';
+		margin: 2rem 0 4rem;
 	}
 	.header .photo {
 		grid-area: photo;
