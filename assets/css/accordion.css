@@ -37,7 +37,7 @@
 .accordion .trigger::after {
 	content: '';
 	display: inline-block;
-	width: 1.5rem;
+	width: 1rem;
 	height: 1rem;
 	background-repeat: no-repeat;
 	background-size: contain;
