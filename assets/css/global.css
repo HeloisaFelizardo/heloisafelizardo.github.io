@@ -49,9 +49,11 @@ a {
 	font-size: 0.875rem;
 	font-weight: 400;
 	line-height: 20px;
+	transition: transform 0.3s ease;
 }
 a:hover {
 	text-decoration: underline;
+	transform: scale(1.1);
 }
 .main {
 	margin: 1rem;
