@@ -29,8 +29,13 @@
 	text-align: center;
 	font-weight: 300;
 	font-family: 'Neue Machina';
+	color: #fff;
+	margin: 1rem 0;
+	padding: 0;
+	line-height: 2.5rem;
+}
+.header .title span {
 	color: #19ff44;
-	margin-bottom: 2rem;
 }
 .informations {
 	width: 100%;
@@ -55,7 +60,7 @@
 	flex-direction: row;
 	align-self: flex-end;
 	justify-content: space-around;
-	margin-top: 1rem;
+	margin-top: 2rem;
 }
 .job::before,
 .location::before {
@@ -123,9 +128,15 @@
 	.header .title {
 		grid-area: title;
 		text-align: start;
-		max-width: 500px;
+		width: 500px;
 	}
 	.header .informations {
 		grid-area: informations;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.header .title {
+		height: 88px;
 	}
 }
