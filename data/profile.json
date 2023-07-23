@@ -1,6 +1,6 @@
 {
 	"name": "Heloisa Felizardo",
-	"photo": "https://avatars.githubusercontent.com/u/3266640?v=4",
+	"photo": "https://heloisafelizardo.github.io/assets/img/profile-pic-violet.png",
 	"job": "Web Developer",
 	"location": "Cabo Frio - RJ",
 	"phone": "+55 22 99745-8287",
@@ -8,31 +8,39 @@
 	"skills": {
 		"hardSkills": [
 			{
-				"name": "Nodejs",
+				"name": "HTML",
 				"logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
 			},
 			{
-				"name": "Java",
+				"name": "CSS",
 				"logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
 			},
 			{
-				"name": "Angular",
+				"name": "JavaScript",
 				"logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
 			},
 			{
-				"name": "React",
+				"name": "Algoritmos",
 				"logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
 			},
 			{
-				"name": "Mongodb",
+				"name": "React",
 				"logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
 			},
 			{
-				"name": "Postgresql",
+				"name": "Git",
+				"logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+			},
+			{
+				"name": "UX Design",
+				"logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+			},
+			{
+				"name": "Figma",
 				"logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
 			}
 		],
-		"softSkills": ["Empatia", "Trabalho em equipe", "Iniciativa", "Planejamento e organização", "Capacidade analítica"]
+		"softSkills": ["Trabalho em equipe", "Iniciativa", "Planejamento e organização", "Capacidade analítica"]
 	},
 	"languages": ["Português BR", "Inglês (Intermediário)"],
 	"portfolio": [
