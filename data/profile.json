@@ -1,6 +1,6 @@
 {
-	"name": "Heloisa Felizardo",
-	"photo": "https://avatars.githubusercontent.com/u/3266640?v=4",
+	"name": "Heloisa ",
+	"photo": "https://heloisafelizardo.github.io/assets/img/profile-pic-violet.png",
 	"job": "Web Developer",
 	"location": "Cabo Frio - RJ",
 	"phone": "+55 22 99745-8287",
@@ -8,32 +8,66 @@
 	"skills": {
 		"hardSkills": [
 			{
-				"name": "Nodejs",
+				"name": "HTML",
 				"logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
 			},
 			{
-				"name": "Java",
+				"name": "CSS",
 				"logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
 			},
 			{
-				"name": "Angular",
+				"name": "JavaScript",
 				"logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
 			},
 			{
-				"name": "React",
+				"name": "Algoritmos",
 				"logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
 			},
 			{
-				"name": "Mongodb",
+				"name": "React",
 				"logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
 			},
 			{
-				"name": "Postgresql",
+				"name": "Git",
+				"logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+			},
+			{
+				"name": "UX Design",
+				"logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+			},
+			{
+				"name": "Figma",
 				"logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
 			}
 		],
-		"softSkills": ["Empatia", "Trabalho em equipe", "Iniciativa", "Planejamento e organização", "Capacidade analítica"]
+		"softSkills": ["Trabalho em equipe", "Iniciativa", "Planejamento e organização", "Capacidade analítica"]
 	},
+	"education": [
+		{
+			"title": "Bacharel",
+			"period": "Ago 2023 - Ago 2027",
+			"course": "Engenharia de Software",
+			"institution": "unicsul"
+		},
+		{
+			"title": "Técnologo",
+			"period": "Jan 2006 - Dez 2008",
+			"course": "Comunicação para Web",
+			"institution": "unip"
+		},
+		{
+			"title": "Curso Intensivo",
+			"period": "Jan 2023 - Dez 2023",
+			"course": "Formação JavaScript Developer",
+			"institution": "dio"
+		},
+		{
+			"title": "Curso Intensivo",
+			"period": "Jan 2023 - Dez 2023",
+			"course": "UX & UI Design",
+			"institution": "Origamid"
+		}
+	],
 	"languages": ["Português BR", "Inglês (Intermediário)"],
 	"portfolio": [
 		{
