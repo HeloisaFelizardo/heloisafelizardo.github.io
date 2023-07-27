@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-	"name": "Heloisa ",
-=======
 	"name": "Heloisa Felizardo",
->>>>>>> fe115f9f44d18f55adc40090518f8c070b3436db
 	"photo": "https://heloisafelizardo.github.io/assets/img/profile-pic-violet.png",
 	"job": "Web Developer",
 	"location": "Cabo Frio - RJ",
@@ -93,7 +89,7 @@
 		},
 		{
 			"name": "Level Up Brasil",
-			"period": "2021 - 2022",
+			"period": "2015 - 2016",
 			"description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
 		},
 		{
