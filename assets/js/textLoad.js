@@ -54,7 +54,7 @@ let index = 0;
 let isFirstTime = true;
 
 // Função principal para carregar e apagar o texto
-const textLoad = () => {
+export const textLoad = () => {
 	const word = words[index]; // Obtém a palavra atual do array 'words'
 	let currentText = ''; // Texto atual exibido no título
 	let i = 0; // Índice para percorrer os caracteres da palavra
@@ -103,4 +103,4 @@ const textLoad = () => {
 	};
 };
 
-textLoad(); // Inicia o carregamento do texto no título
+// Inicia o carregamento do texto no título
