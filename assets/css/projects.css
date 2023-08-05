@@ -26,6 +26,21 @@
 	font-size: 0.875rem;
 	line-height: 20px;
 }
+.project-link {
+	position: relative;
+	display: flex;
+	align-items: self-end;
+	gap: 8px;
+	height: 40px;
+}
+
+.project-link a:hover {
+	transform: scale(1.1);
+}
+.project-link a {
+	position: absolute;
+	transition: transform 0.3s ease;
+}
 .projects .title {
 	font-size: 1.25rem;
 	text-transform: capitalize;
