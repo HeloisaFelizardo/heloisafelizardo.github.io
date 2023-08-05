@@ -9,35 +9,35 @@
 		"hardSkills": [
 			{
 				"name": "HTML",
-				"logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+				"logo": "https://raw.githubusercontent.com/HeloisaFelizardo/heloisafelizardo.github.io/main/data/imgs/nodejs.png"
 			},
 			{
 				"name": "CSS",
-				"logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
+				"logo": "https://raw.githubusercontent.com/HeloisaFelizardo/heloisafelizardo.github.io/main/data/imgs/java.png"
 			},
 			{
 				"name": "JavaScript",
-				"logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
+				"logo": "https://raw.githubusercontent.com/HeloisaFelizardo/heloisafelizardo.github.io/main/data/imgs/angular.png"
 			},
 			{
 				"name": "Algoritmos",
-				"logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
+				"logo": "https://raw.githubusercontent.com/HeloisaFelizardo/heloisafelizardo.github.io/main/data/imgs/react.png"
 			},
 			{
 				"name": "React",
-				"logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
+				"logo": "https://raw.githubusercontent.com/HeloisaFelizardo/heloisafelizardo.github.io/main/data/imgs/mongodb.png"
 			},
 			{
 				"name": "Git",
-				"logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+				"logo": "https://raw.githubusercontent.com/HeloisaFelizardo/heloisafelizardo.github.io/main/data/imgs/postgresql.png"
 			},
 			{
 				"name": "UX Design",
-				"logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+				"logo": "https://raw.githubusercontent.com/HeloisaFelizardo/heloisafelizardo.github.io/main/data/imgs/postgresql.png"
 			},
 			{
 				"name": "Figma",
-				"logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+				"logo": "https://raw.githubusercontent.com/HeloisaFelizardo/heloisafelizardo.github.io/main/data/imgs/postgresql.png"
 			}
 		],
 		"softSkills": ["Trabalho em equipe", "Iniciativa", "Planejamento e organização", "Capacidade analítica"]
