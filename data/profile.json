@@ -9,31 +9,31 @@
 		"hardSkills": [
 			{
 				"name": "HTML",
-				"logo": "https://raw.githubusercontent.com/HeloisaFelizardo/heloisafelizardo.github.io/main/data/imgs/nodejs.png"
+				"logo": "https://raw.githubusercontent.com/HeloisaFelizardo/heloisafelizardo.github.io/main/data/imgs/html.png"
 			},
 			{
 				"name": "CSS",
-				"logo": "https://raw.githubusercontent.com/HeloisaFelizardo/heloisafelizardo.github.io/main/data/imgs/java.png"
+				"logo": "https://raw.githubusercontent.com/HeloisaFelizardo/heloisafelizardo.github.io/main/data/imgs/css.png"
 			},
 			{
 				"name": "JavaScript",
-				"logo": "https://raw.githubusercontent.com/HeloisaFelizardo/heloisafelizardo.github.io/main/data/imgs/angular.png"
+				"logo": "https://raw.githubusercontent.com/HeloisaFelizardo/heloisafelizardo.github.io/main/data/imgs/js.png"
 			},
 			{
 				"name": "Algoritmos",
-				"logo": "https://raw.githubusercontent.com/HeloisaFelizardo/heloisafelizardo.github.io/main/data/imgs/react.png"
+				"logo": "https://raw.githubusercontent.com/HeloisaFelizardo/heloisafelizardo.github.io/main/data/imgs/node.png"
 			},
 			{
 				"name": "React",
-				"logo": "https://raw.githubusercontent.com/HeloisaFelizardo/heloisafelizardo.github.io/main/data/imgs/mongodb.png"
+				"logo": "https://raw.githubusercontent.com/HeloisaFelizardo/heloisafelizardo.github.io/main/data/imgs/react.png"
 			},
 			{
 				"name": "Git",
-				"logo": "https://raw.githubusercontent.com/HeloisaFelizardo/heloisafelizardo.github.io/main/data/imgs/postgresql.png"
+				"logo": "https://raw.githubusercontent.com/HeloisaFelizardo/heloisafelizardo.github.io/main/data/imgs/git.png"
 			},
 			{
 				"name": "UX Design",
-				"logo": "https://raw.githubusercontent.com/HeloisaFelizardo/heloisafelizardo.github.io/main/data/imgs/postgresql.png"
+				"logo": "https://raw.githubusercontent.com/HeloisaFelizardo/heloisafelizardo.github.io/main/data/imgs/github.png"
 			},
 			{
 				"name": "Figma",
