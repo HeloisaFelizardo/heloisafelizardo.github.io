@@ -52,6 +52,14 @@
 	align-items: center;
 	font-size: 1.125rem;
 }
+.light-mode .github,
+.light-mode .email,
+.light-mode .header .title,
+.light-mode .job,
+.light-mode .location {
+	filter: brightness(0) saturate(100%) invert(17%) sepia(61%) saturate(7331%) hue-rotate(265deg) brightness(66%) contrast(131%);
+}
+
 .informations img {
 	height: 1.5rem;
 }

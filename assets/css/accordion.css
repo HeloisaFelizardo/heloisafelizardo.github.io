@@ -7,10 +7,16 @@
 	transition: 0.2s;
 	color: #fff;
 }
+.light-mode .accordion {
+	border: 1px solid #6c19ff;
+}
 .accordion.open,
 .accordion:hover {
 	background-color: #4609b3;
 	border-color: #16003f;
+}
+.light-mode .accordion .trigger {
+	color: #4609b3;
 }
 .accordion .trigger {
 	display: flex;
@@ -31,8 +37,18 @@
 	font-weight: 400;
 	transition: opacity 0.2s ease-out;
 }
+.light-mode .trigger:hover {
+	color: #fff;
+	/* filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(148deg) brightness(105%) contrast(105%); */
+}
 .accordion .trigger:hover {
 	cursor: pointer;
+}
+.light-mode .trigger:hover {
+	filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(148deg) brightness(105%) contrast(105%);
+}
+.light-mode .trigger::after {
+	filter: brightness(0) saturate(100%) invert(17%) sepia(61%) saturate(7331%) hue-rotate(265deg) brightness(66%) contrast(131%);
 }
 .accordion .trigger::after {
 	content: '';
