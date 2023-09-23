@@ -26,6 +26,18 @@
 	font-size: 0.875rem;
 	line-height: 20px;
 }
+.projects-icons {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 70px;
+}
+.marvel {
+	height: 30px;
+	width: auto !important;
+	margin-left: 10px;
+}
+
 .project-link {
 	position: relative;
 	display: flex;
@@ -33,12 +45,14 @@
 	gap: 8px;
 	height: 40px;
 }
+.project-link img {
+	width: 30px;
+}
 
 .project-link a:hover {
 	transform: scale(1.1);
 }
 .project-link a {
-	position: absolute;
 	transition: transform 0.3s ease;
 }
 .projects .title {
