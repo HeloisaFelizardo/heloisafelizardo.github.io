@@ -6,6 +6,7 @@ function contentHTML(data) {
 	const softSkills = data.skills.softSkills;
 	const education = data.education;
 	const languages = data.languages;
+	const projects = data.projects;
 
 	const jobElement = document.querySelector('.job');
 	jobElement.textContent = job;
@@ -36,6 +37,50 @@ function contentHTML(data) {
 			<h4 class="course">${course.course}</h4>
 			<span class="institution">${course.institution}</span>
 		</li>`,
+		);
+	});
+
+	const languagesList = document.querySelector('.languages');
+	languages.forEach((language) => {
+		languagesList.insertAdjacentHTML(
+			'beforeend',
+			`<li>${language}</li>			
+			`,
+		);
+	});
+
+	const projectsList = document.querySelector('.projects');
+	projects.forEach((project) => {
+		projectsList.insertAdjacentHTML(
+			'beforeend',
+			`<li>
+				<h3 class="title">${project.name}</h3>
+				<p>${project.description}</p>
+				<p>Acesse o projeto:</p>
+				<div class="projects-icons">
+					<div class="project-link">
+						<a href="${project.url}"
+							title="${project.title}"><img
+								src="${project.iconGithub}" alt="${project.title}" /></a>
+					</div>
+					<div class="project-link">
+						<a href="${project.url}"
+							title="${project.alt}" target="_blank"><img
+								src="${project.iconProject}" class="marvel"
+								alt="${project.alt}" /></a>
+					</div>
+				</div>
+				<h4 class="tools">Tecnologias</h4>
+				<ul>
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>JavaScript</li>
+					<li>Meta Tags</li>
+					<li>Vídeo Incorporado</li>
+					<li>Responsividade</li>
+					<li>Metadados para Redes Sociais</li>
+				</ul>
+			</li>`,
 		);
 	});
 }
