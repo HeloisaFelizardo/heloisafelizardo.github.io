@@ -65,6 +65,28 @@
 		}
 	],
 	"languages": ["Português BR", "Inglês (Intermediário)"],
+	"projects": [
+		{
+			"name": "MediFlora",
+			"description": "Projeto criado do zero, no projeto Descodificadas. Em resumo, o projeto utiliza tecnologias web padrão (HTML, CSS e JavaScript) para criar uma página informativa sobre chás naturais e ervas medicinais oferecidos pela 'MediFlora'. Ele incorpora recursos de design, interatividade e otimização para mecanismos de busca e redes sociais, tornando-o uma página completa e funcional.",
+			"url": "https://github.com/HeloisaFelizardo/desafio-landing-page",
+			"title": "Link para o repositório do Github",
+			"iconGithub": "https://raw.githubusercontent.com/HeloisaFelizardo/heloisafelizardo.github.io/assets/img/icons/github.svg",
+			"alt": "Link para a Landing Page MediFlora",
+			"iconProject": "https://raw.githubusercontent.com/HeloisaFelizardo/heloisafelizardo.github.io/assets/img/icons/mediflora.svg",
+			"tecnologias": ["HMTL", "CSS", "JavaScript", "MetaTags", "Responsividade", "Metadados para Redes Sociais"]
+		},
+		{
+			"name": "Teste",
+			"description": "Projeto criado do zero, no projeto Descodificadas. Em resumo, o projeto utiliza tecnologias web padrão (HTML, CSS e JavaScript) para criar uma página informativa sobre chás naturais e ervas medicinais oferecidos pela 'MediFlora'. Ele incorpora recursos de design, interatividade e otimização para mecanismos de busca e redes sociais, tornando-o uma página completa e funcional.",
+			"url": "https://github.com/HeloisaFelizardo/desafio-landing-page",
+			"title": "Link para o repositório do Github",
+			"iconGithub": "https://raw.githubusercontent.com/HeloisaFelizardo/heloisafelizardo.github.io/assets/img/icons/github.svg",
+			"alt": "Link para a Landing Page MediFlora",
+			"iconProject": "https://raw.githubusercontent.com/HeloisaFelizardo/heloisafelizardo.github.io/assets/img/icons/mediflora.svg",
+			"tecnologias": ["HMTL", "CSS", "JavaScript", "MetaTags", "Responsividade", "Metadados para Redes Sociais"]
+		}
+	],
 	"portfolio": [
 		{
 			"name": "Curso Ministrado na DIO para a criação de uma Pokedex",
