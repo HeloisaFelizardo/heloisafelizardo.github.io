@@ -2,6 +2,10 @@
 	color: #4609b3;
 }
 
+.light-mode .languages li::before {
+	filter: brightness(0) saturate(100%) invert(17%) sepia(61%) saturate(7331%) hue-rotate(265deg) brightness(66%) contrast(131%);
+}
+
 .languages {
 	display: flex;
 	flex-direction: row;
