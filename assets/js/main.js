@@ -60,12 +60,12 @@ function contentHTML(data) {
 				<p>Acesse o projeto:</p>
 				<div class="projects-icons">
 					<div class="project-link">
-						<a href="${project.url}"
+						<a href="${project.urlGithub}"
 							title="${project.title}" target="_blank"><img
 								src="${project.iconGithub}" alt="${project.title}" /></a>
 					</div>
 					<div class="project-link">
-						<a href="${project.deploy}"
+						<a href="${project.url}"
 							title="${project.alt}" target="_blank"><img
 								src="${project.iconProject}" class="marvel"
 								alt="${project.alt}" /></a>

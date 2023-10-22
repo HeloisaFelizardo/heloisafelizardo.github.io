@@ -68,7 +68,7 @@
 	"projects": [
 		{
 			"name": "MediFlora",
-			"description": "Projeto criado do zero, no projeto Descodificadas. Em resumo, o projeto utiliza tecnologias web padrão (HTML, CSS e JavaScript) para criar uma página informativa sobre chás naturais e ervas medicinais oferecidos pela 'MediFlora'. Ele incorpora recursos de design, interatividade e otimização para mecanismos de busca e redes sociais, tornando-o uma página completa e funcional.",
+			"description": "Landing Page criada para o projeto Descodificadas. Em resumo, o projeto utiliza tecnologias web padrão (HTML, CSS e JavaScript) para criar uma página informativa sobre chás naturais e ervas medicinais oferecidos pela 'MediFlora'. Ele incorpora recursos de design, interatividade e otimização para mecanismos de busca e redes sociais, tornando-o uma página completa e funcional.",
 			"urlGithub": "https://github.com/HeloisaFelizardo/desafio-landing-page",
 			"url": "https://heloisafelizardo.github.io/desafio-landing-page",
 			"title": "Link para o repositório do Github",
