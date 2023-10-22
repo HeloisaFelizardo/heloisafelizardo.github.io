@@ -74,7 +74,7 @@
 			"iconGithub": "https://heloisafelizardo.github.io/assets/img/icons/github.svg",
 			"alt": "Link para a Landing Page MediFlora",
 			"iconProject": "https://heloisafelizardo.github.io/assets/img/icons/mediflora.svg",
-			"tecnologies": ["HMTL", "CSS", "JavaScript", "MetaTags", "Responsividade", "Metadados para Redes Sociais"]
+			"technologies": ["HMTL", "CSS", "JavaScript", "MetaTags", "Responsividade", "Metadados para Redes Sociais"]
 		},
 		{
 			"name": "Github API Project",
@@ -84,7 +84,7 @@
 			"iconGithub": "https://heloisafelizardo.github.io/assets/img/icons/github.svg",
 			"alt": "Link para o projeto GitHub API Project",
 			"iconProject": "https://heloisafelizardo.github.io/assets/img/icons/icons-github.svg",
-			"tecnologies": ["HMTL", "CSS", "JavaScript", "Fetch API", "Git", "Github"]
+			"technologies": ["HMTL", "CSS", "JavaScript", "Fetch API", "Git", "Github"]
 		}
 	],
 	"portfolio": [
