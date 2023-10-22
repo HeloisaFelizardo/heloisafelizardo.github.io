@@ -85,6 +85,26 @@
 			"alt": "Link para o projeto GitHub API Project",
 			"iconProject": "https://heloisafelizardo.github.io/assets/img/icons/icons-github.svg",
 			"technologies": ["HMTL", "CSS", "JavaScript", "Fetch API", "Git", "Github"]
+		},
+		{
+			"name": "Heroes Search App",
+			"description": "Aplicação de três telas, onde os usuários podem pesquisar heróis por nome, ver uma lista de heróis encontrados com miniaturas e acessar uma descrição sobre o herói selecionado.",
+			"url": "https://github.com/HeloisaFelizardo/Marvel-Heroes-Search-App",
+			"title": "Link para o repositório do Github",
+			"iconGithub": "https://heloisafelizardo.github.io/assets/img/icons/github.svg",
+			"alt": "Link para o projeto Marvel Heroes Search",
+			"iconProject": "https://heloisafelizardo.github.io/assets/img/icons/marvel.svg",
+			"technologies": ["Styled Components", "React", "TypeScript", "JavaScript", "Fetch API", "Git"]
+		},
+		{
+			"name": "Pokedex",
+			"description": "A aplicação apresenta uma lista de Pokémon, permitindo que o usuário selecione um para acessar informações. O modal exibe duas abas: uma com detalhes sobre a história, habilidades, evolução e curiosidades do Pokémon, e outra com os status básicos, como pontos de vida, ataque, defesa e velocidade.",
+			"url": "https://github.com/HeloisaFelizardo/pokedex",
+			"title": "Link para o repositório do Github",
+			"iconGithub": "https://heloisafelizardo.github.io/assets/img/icons/github.svg",
+			"alt": "Link para o projeto Pokedex",
+			"iconProject": "https://heloisafelizardo.github.io/assets/img/icons/pokedex.png",
+			"technologies": ["Styled Components", "React", "TypeScript", "JavaScript", "Fetch API", "Git"]
 		}
 	],
 	"portfolio": [
