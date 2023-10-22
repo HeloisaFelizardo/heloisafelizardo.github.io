@@ -5,15 +5,15 @@
 	flex-direction: column;
 	justify-content: flex-start;
 }
+
 .projects li {
-	display: flex;
-	flex-direction: column;
 	margin: 0 0 1.5rem 0;
 	padding: 1rem;
 	background: #141414;
 	border-radius: 5px;
 	border-color: #090909;
 }
+
 .projects li ul li {
 	padding: 0;
 	font-size: 0.875rem;
@@ -26,12 +26,14 @@
 	font-size: 0.875rem;
 	line-height: 20px;
 }
+
 .projects-icons {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	width: 70px;
 }
+
 .marvel {
 	height: 30px;
 	width: auto !important;
@@ -45,6 +47,7 @@
 	gap: 8px;
 	height: 40px;
 }
+
 .project-link img {
 	width: 30px;
 }
@@ -52,15 +55,18 @@
 .project-link a:hover {
 	transform: scale(1.1);
 }
+
 .project-link a {
 	transition: transform 0.3s ease;
 }
+
 .projects .title {
 	font-size: 1.25rem;
 	text-transform: capitalize;
 	margin-bottom: 0.5rem;
 	line-height: 1.6rem;
 }
+
 .projects li .title.github::before {
 	content: '';
 	display: inline-block;
@@ -72,15 +78,18 @@
 	background-position: center;
 	background-image: url('/assets/img/icons/github.svg');
 }
+
 .projects p {
 	margin: 0.5rem 0;
 }
+
 .accordion .content .projects li ul {
 	padding: 0;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 }
+
 .projects .tools {
 	margin: 1.875rem 0 0.5rem;
 	text-transform: uppercase;
@@ -88,8 +97,15 @@
 	font-size: 0.875rem;
 	color: #19ff44;
 }
+
 .projects .year {
 	color: #7b59dc;
 	font-size: 0.875rem;
 	font-weight: 400;
+}
+
+@media only screen and (max-width: 320px) {
+	.projects li {
+		padding: 0.5rem;
+	}
 }
