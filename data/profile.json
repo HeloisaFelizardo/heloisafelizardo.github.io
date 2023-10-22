@@ -69,7 +69,8 @@
 		{
 			"name": "MediFlora",
 			"description": "Projeto criado do zero, no projeto Descodificadas. Em resumo, o projeto utiliza tecnologias web padrão (HTML, CSS e JavaScript) para criar uma página informativa sobre chás naturais e ervas medicinais oferecidos pela 'MediFlora'. Ele incorpora recursos de design, interatividade e otimização para mecanismos de busca e redes sociais, tornando-o uma página completa e funcional.",
-			"url": "https://github.com/HeloisaFelizardo/desafio-landing-page",
+			"urlGithub": "https://github.com/HeloisaFelizardo/desafio-landing-page",
+			"url": "https://heloisafelizardo.github.io/desafio-landing-page",
 			"title": "Link para o repositório do Github",
 			"iconGithub": "https://heloisafelizardo.github.io/assets/img/icons/github.svg",
 			"alt": "Link para a Landing Page MediFlora",
@@ -79,7 +80,8 @@
 		{
 			"name": "Github API Project",
 			"description": "Esse projeto utiliza a API do Github para buscar repositórios de um usuário. ELe importa módulos, cria uma instância do FetchWrapper para as requisições. A função 'renderizar' atualiza a lista de repositórios, com base no nome de usuário. Um ouvinte de evento é usado no formulário, para inserir o nome de usuário e a exibição inicial dos repositórios é feita.",
-			"url": "https://github.com/HeloisaFelizardo/Github-API-Project",
+			"urlGithub": "https://github.com/HeloisaFelizardo/Github-API-Project",
+			"url": "https://heloisafelizardo.github.io/Github-API-Project",
 			"title": "Link para o repositório do Github",
 			"iconGithub": "https://heloisafelizardo.github.io/assets/img/icons/github.svg",
 			"alt": "Link para o projeto GitHub API Project",
@@ -89,7 +91,8 @@
 		{
 			"name": "Heroes Search App",
 			"description": "Aplicação de três telas, onde os usuários podem pesquisar heróis por nome, ver uma lista de heróis encontrados com miniaturas e acessar uma descrição sobre o herói selecionado.",
-			"url": "https://github.com/HeloisaFelizardo/Marvel-Heroes-Search-App",
+			"urlGithub": "https://github.com/HeloisaFelizardo/Marvel-Heroes-Search-App",
+			"url": "https://heloisafelizardo.github.io/Marvel-Heroes-Search-App",
 			"title": "Link para o repositório do Github",
 			"iconGithub": "https://heloisafelizardo.github.io/assets/img/icons/github.svg",
 			"alt": "Link para o projeto Marvel Heroes Search",
@@ -99,7 +102,8 @@
 		{
 			"name": "Pokedex",
 			"description": "A aplicação apresenta uma lista de Pokémon, permitindo que o usuário selecione um para acessar informações. O modal exibe duas abas: uma com detalhes sobre a história, habilidades, evolução e curiosidades do Pokémon, e outra com os status básicos, como pontos de vida, ataque, defesa e velocidade.",
-			"url": "https://github.com/HeloisaFelizardo/pokedex",
+			"urlGithub": "https://github.com/HeloisaFelizardo/pokedex",
+			"url": "https://heloisafelizardo.github.io/pokedex",
 			"title": "Link para o repositório do Github",
 			"iconGithub": "https://heloisafelizardo.github.io/assets/img/icons/github.svg",
 			"alt": "Link para o projeto Pokedex",
