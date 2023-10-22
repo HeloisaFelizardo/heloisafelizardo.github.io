@@ -74,17 +74,17 @@
 			"iconGithub": "https://heloisafelizardo.github.io/assets/img/icons/github.svg",
 			"alt": "Link para a Landing Page MediFlora",
 			"iconProject": "https://heloisafelizardo.github.io/assets/img/icons/mediflora.svg",
-			"tecnologias": ["HMTL", "CSS", "JavaScript", "MetaTags", "Responsividade", "Metadados para Redes Sociais"]
+			"technologies": ["HMTL", "CSS", "JavaScript", "MetaTags", "Responsividade", "Metadados para Redes Sociais"]
 		},
 		{
-			"name": "Teste",
-			"description": "Projeto criado do zero, no projeto Descodificadas. Em resumo, o projeto utiliza tecnologias web padrão (HTML, CSS e JavaScript) para criar uma página informativa sobre chás naturais e ervas medicinais oferecidos pela 'MediFlora'. Ele incorpora recursos de design, interatividade e otimização para mecanismos de busca e redes sociais, tornando-o uma página completa e funcional.",
-			"url": "https://github.com/HeloisaFelizardo/desafio-landing-page",
+			"name": "Github API Project",
+			"description": "Esse projeto utiliza a API do Github para buscar repositórios de um usuário. ELe importa módulos, cria uma instância do FetchWrapper para as requisições. A função 'renderizar' atualiza a lista de repositórios, com base no nome de usuário. Um ouvinte de evento é usado no formulário, para inserir o nome de usuário e a exibição inicial dos repositórios é feita.",
+			"url": "https://github.com/HeloisaFelizardo/Github-API-Project",
 			"title": "Link para o repositório do Github",
 			"iconGithub": "https://heloisafelizardo.github.io/assets/img/icons/github.svg",
-			"alt": "Link para a Landing Page MediFlora",
-			"iconProject": "https://heloisafelizardo.github.io/assets/img/icons/mediflora.svg",
-			"tecnologias": ["HMTL", "CSS", "JavaScript", "MetaTags", "Responsividade", "Metadados para Redes Sociais"]
+			"alt": "Link para o projeto GitHub API Project",
+			"iconProject": "https://heloisafelizardo.github.io/assets/img/icons/icons-github.svg",
+			"technologies": ["HMTL", "CSS", "JavaScript", "Fetch API", "Git", "Github"]
 		}
 	],
 	"portfolio": [

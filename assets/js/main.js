@@ -51,6 +51,7 @@ function contentHTML(data) {
 
 	const projectsList = document.querySelector('.projects');
 	projects.forEach((project) => {
+		const technologiesList = project.technologies.map((tech) => `<li>${tech}</li>`).join('');
 		projectsList.insertAdjacentHTML(
 			'beforeend',
 			`<li>
@@ -72,13 +73,7 @@ function contentHTML(data) {
 				</div>
 				<h4 class="tools">Tecnologias</h4>
 				<ul>
-					<li>HTML</li>
-					<li>CSS</li>
-					<li>JavaScript</li>
-					<li>Meta Tags</li>
-					<li>Vídeo Incorporado</li>
-					<li>Responsividade</li>
-					<li>Metadados para Redes Sociais</li>
+					 ${technologiesList}
 				</ul>
 			</li>`,
 		);
