@@ -61,7 +61,7 @@ function contentHTML(data) {
 				<div class="projects-icons">
 					<div class="project-link">
 						<a href="${project.url}"
-							title="${project.title}"><img
+							title="${project.title}" target="_blank"><img
 								src="${project.iconGithub}" alt="${project.title}" /></a>
 					</div>
 					<div class="project-link">
