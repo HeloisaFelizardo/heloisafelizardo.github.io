@@ -104,7 +104,7 @@
 			"iconGithub": "https://heloisafelizardo.github.io/assets/img/icons/github.svg",
 			"alt": "Link para o projeto Pokedex",
 			"iconProject": "https://heloisafelizardo.github.io/assets/img/icons/pokedex.png",
-			"technologies": ["Styled Components", "React", "TypeScript", "JavaScript", "Fetch API", "Git"]
+			"technologies": ["HTML", "CSS", "JavaScript", "Fetch API", "Git"]
 		}
 	],
 	"portfolio": [
