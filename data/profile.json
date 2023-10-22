@@ -22,7 +22,7 @@
 			{
 				"name": "Algoritmos",
 				"logo": "https://raw.githubusercontent.com/HeloisaFelizardo/heloisafelizardo.github.io/main/data/imgs/node.png"
-			},		
+			},
 			{
 				"name": "Git",
 				"logo": "https://raw.githubusercontent.com/HeloisaFelizardo/heloisafelizardo.github.io/main/data/imgs/git.png"
@@ -46,12 +46,6 @@
 			"institution": "unicsul"
 		},
 		{
-			"title": "Técnologo",
-			"period": "Jan 2006 - Dez 2008",
-			"course": "Comunicação para Web",
-			"institution": "unip"
-		},
-		{
 			"title": "Curso Intensivo",
 			"period": "Jan 2023 - Dez 2023",
 			"course": "Formação JavaScript Developer",
@@ -62,6 +56,12 @@
 			"period": "Jan 2023 - Dez 2023",
 			"course": "UX & UI Design",
 			"institution": "Origamid"
+		},
+		{
+			"title": "Técnologo",
+			"period": "Jan 2006 - Dez 2008",
+			"course": "Comunicação para Web",
+			"institution": "unip"
 		}
 	],
 	"languages": ["Português BR", "Inglês (Intermediário)"],

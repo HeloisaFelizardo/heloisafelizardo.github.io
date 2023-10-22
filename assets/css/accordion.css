@@ -7,17 +7,32 @@
 	transition: 0.2s;
 	color: #fff;
 }
+
 .light-mode .accordion {
 	border: 1px solid #6c19ff;
 }
+
+.light-mode .accordion.open,
+.accordion:hover {
+	background-color: #fff;
+	border-color: #6c19ff;
+}
+
 .accordion.open,
 .accordion:hover {
 	background-color: #4609b3;
 	border-color: #16003f;
 }
+
 .light-mode .accordion .trigger {
 	color: #4609b3;
+	border-bottom: 1px solid #6c19ff;
 }
+
+.light-mode .accordion .trigger:hover {
+	color: #4609b3;
+}
+
 .accordion .trigger {
 	display: flex;
 	flex-direction: row;
@@ -31,25 +46,27 @@
 	color: #fff;
 	font-weight: 700;
 }
+
 .accordion.open h2 {
 	color: #b36812;
 	text-transform: uppercase;
 	font-weight: 400;
 	transition: opacity 0.2s ease-out;
 }
-.light-mode .trigger:hover {
+
+.light-mode .accordion .trigger:hover {
 	color: #fff;
 	/* filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(148deg) brightness(105%) contrast(105%); */
 }
+
 .accordion .trigger:hover {
 	cursor: pointer;
 }
-.light-mode .trigger:hover {
-	filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(148deg) brightness(105%) contrast(105%);
-}
-.light-mode .trigger::after {
+
+.light-mode .accordion .trigger::after {
 	filter: brightness(0) saturate(100%) invert(17%) sepia(61%) saturate(7331%) hue-rotate(265deg) brightness(66%) contrast(131%);
 }
+
 .accordion .trigger::after {
 	content: '';
 	display: inline-block;
@@ -61,40 +78,50 @@
 	background-image: url('/assets/img/icons/arrow.svg');
 	transition: transform 0.2s;
 }
+
 .accordion h2 {
 	transition: all;
 }
+
 .accordion.open .trigger::after {
 	transform: scaleY(-1);
 	filter: brightness(0) saturate(100%) invert(38%) sepia(99%) saturate(447%) hue-rotate(352deg) brightness(95%) contrast(92%);
 }
+
 .accordion.transition {
 	transition: max-height 0.2s ease-out;
 }
+
 .accordion .content {
 	overflow: hidden;
 	max-height: 0;
 	opacity: 0;
 	transition: max-height 0.2s ease-out, opacity 0.2s ease-out;
 }
+
 .accordion .content ul {
 	padding: 1rem;
 	list-style: none;
 	margin: 0;
 }
+
 .accordion.open .content {
-	max-height: 500px; /* Um valor suficientemente grande para acomodar todo o conteúdo */
+	max-height: 500px;
+	/* Um valor suficientemente grande para acomodar todo o conteúdo */
 	opacity: 1;
 	transition: max-height 0.2s ease-in, opacity 0.2s ease-in;
 }
+
 @keyframes fade-in {
 	from {
 		opacity: 0;
 	}
+
 	to {
 		opacity: 1;
 	}
 }
+
 .accordion.open .content {
 	animation: fade-in 0.5s ease-in;
 }

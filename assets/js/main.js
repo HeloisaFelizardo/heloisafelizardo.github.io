@@ -5,6 +5,7 @@ function contentHTML(data) {
 	const hardSkills = data.skills.hardSkills;
 	const softSkills = data.skills.softSkills;
 	const education = data.education;
+	const languages = data.languages;
 
 	const jobElement = document.querySelector('.job');
 	jobElement.textContent = job;

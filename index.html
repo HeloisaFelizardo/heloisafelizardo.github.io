@@ -1,271 +1,313 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="shortcut icon" type="image/x-icon" href="./assets/ico/profile-pic-violet.ico" />
-		<title>Portfolio Heloisa Felizardo</title>
-		<link rel="stylesheet" href="assets/css/styles.css" />
-	</head>
-	<body>
-		<div class="main">
-			<header class="header">
-				<label class="switch">
-					<input type="checkbox" />
-					<span class="slider"></span>
-				</label>
-				<h1 class="title">
-					Eu sou
-					<span></span>
-				</h1>
-				<ul class="informations">
-					<li class="job"></li>
-					<li class="location"></li>
-					<div class="icons">
-						<li class="github">
-							<a href="https://github.com/HeloisaFelizardo" target="_blank">
-								<img src="./assets/img/icons/github.svg" alt="github.com/HeloisaFelizardo" />
-							</a>
-						</li>
-						<li class="linkedin">
-							<a href="https://www.linkedin.com/in/HeloisaFelizardo/" target="_blank">
-								<img src="./assets/img/icons/linkedin.svg" alt="www.linkedin.com/in/HeloisaFelizardo" />
-							</a>
-						</li>
-						<li class="email">
-							<a href="mailto:heloisacampos2009@hotmail.com" target="_blank">
-								<img src="./assets/img/icons/email.svg" alt="Email" />
-							</a>
-						</li>
-					</div>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" type="image/x-icon" href="./assets/ico/profile-pic-violet.ico" />
+	<title>Portfolio Heloisa Felizardo</title>
+	<link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+
+<body>
+	<div class="main">
+		<header class="header">
+			<label class="switch">
+				<input type="checkbox" />
+				<span class="slider"></span>
+			</label>
+			<h1 class="title">
+				Eu sou
+				<span></span>
+			</h1>
+			<ul class="informations">
+				<li class="job"></li>
+				<li class="location"></li>
+				<div class="icons">
+					<li class="github">
+						<a href="https://github.com/HeloisaFelizardo" target="_blank">
+							<img src="./assets/img/icons/github.svg" alt="github.com/HeloisaFelizardo" />
+						</a>
+					</li>
+					<li class="linkedin">
+						<a href="https://www.linkedin.com/in/HeloisaFelizardo/" target="_blank">
+							<img src="./assets/img/icons/linkedin.svg" alt="www.linkedin.com/in/HeloisaFelizardo" />
+						</a>
+					</li>
+					<li class="email">
+						<a href="mailto:heloisacampos2009@hotmail.com" target="_blank">
+							<img src="./assets/img/icons/email.svg" alt="Email" />
+						</a>
+					</li>
+				</div>
+			</ul>
+		</header>
+
+		<section class="accordion">
+			<button class="trigger" type="button">
+				<h2>Skills</h2>
+			</button>
+			<div class="content">
+				<div class="skills">
+					<section class="tools">
+						<h3 class="title">Hard Skills</h3>
+						<ul></ul>
+					</section>
+
+					<section class="personal">
+						<h3 class="title">Soft Skills</h3>
+						<ul></ul>
+					</section>
+				</div>
+			</div>
+		</section>
+		<section class="accordion">
+			<button class="trigger" type="button">
+				<h2>Educação</h2>
+			</button>
+			<div class="content">
+				<ul class="education" id="education"></ul>
+			</div>
+		</section>
+
+		<section class="accordion">
+			<button class="trigger" type="button">
+				<h2>Projetos</h2>
+			</button>
+			<div class="content">
+				<ul class="projects">
+					<h3 class="year">2023</h3>
+					<li>
+						<h3 class="title">MediFlora</h3>
+						<p>Projeto criado do zero, no projeto Descodificadas. Em resumo, o projeto utiliza tecnologias
+							web padrão (HTML, CSS e JavaScript) para criar uma página informativa sobre chás naturais e
+							ervas medicinais oferecidos pela "MediFlora". Ele incorpora recursos de design,
+							interatividade e otimização para mecanismos de busca e redes sociais, tornando-o uma página
+							completa e funcional.</p>
+						<p>Acesse o projeto:</p>
+						<div class="projects-icons">
+							<div class="project-link">
+								<a href="https://github.com/HeloisaFelizardo/desafio-landing-page"
+									title="Link para o repositório do Github" target="_blank"><img
+										src="assets/img/icons/github.svg" alt="Link para o repositório do Github" /></a>
+							</div>
+							<div class="project-link">
+								<a href="https://heloisafelizardo.github.io/desafio-landing-page"
+									title="Link para a Landing Page MediFlora" target="_blank"><img
+										src="assets/img/icons/mediflora.svg" class="marvel"
+										alt="Link para a Landing Page MediFlora" /></a>
+							</div>
+						</div>
+						<h4 class="tools">Tecnologias</h4>
+						<ul>
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>JavaScript</li>
+							<li>Meta Tags</li>
+							<li>Vídeo Incorporado</li>
+							<li>Responsividade</li>
+							<li>Metadados para Redes Sociais</li>
+						</ul>
+					</li>
+					<li>
+						<h3 class="title">Github API Project</h3>
+						<p>Esse projeto utiliza a API do GitHub para buscar repositórios de um usuário. Ele importa
+							módulos, cria uma instância do FetchWrapper para as requisições, a função "renderizar"
+							atualiza a lista de repositórios com base no nome de usuário. Um ouvinte de evento é usado
+							no formulário para inserir o nome de usuário e a exibição inicial dos repositórios é feita.
+						</p>
+						<p>Acesse o projeto:</p>
+						<div class="projects-icons">
+							<div class="project-link">
+								<a href="https://github.com/HeloisaFelizardo/Github-API-Project"
+									title="Link para o repositório do Github" target="_blank"><img
+										src="assets/img/icons/github.svg" alt="Link para o repositório do Github" /></a>
+							</div>
+							<div class="project-link">
+								<a href="https://heloisafelizardo.github.io/Github-API-Project/"
+									title="Link para o projeto GitHub API Project" target="_blank"><img
+										src="assets/img/icons/icons-github.svg" class="marvel"
+										alt="Link para o projeto GitHub API Project" /></a>
+							</div>
+						</div>
+						<h4 class="tools">Tecnologias</h4>
+						<ul>
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>JavaScript</li>
+							<li>Fetch API</li>
+							<li>Git</li>
+							<li>Github</li>
+						</ul>
+					</li>
+					<li>
+						<h3 class="title">Marvel App</h3>
+						<p>Aplicação de três telas, onde os usuários podem pesquisar heróis por nome, ver uma lista de
+							heróis encontrados com miniaturas e acessar uma descrição sobre o herói selecionado.</p>
+
+						<p>Acesse o projeto:</p>
+						<div class="projects-icons">
+							<div class="project-link">
+								<a href="https://github.com/HeloisaFelizardo/Marvel-Heroes-Search-App"
+									title="Link para o repositório do Github" target="_blank"><img
+										src="assets/img/icons/github.svg" alt="Link para o repositório do Github" /></a>
+							</div>
+							<div class="project-link">
+								<a href="https://heloisafelizardo.github.io/Marvel-Heroes-Search-App/"
+									title="Link para o projeto Marvel Heroes Search" target="_blank"><img
+										src="assets/img/icons/marvel.svg" class="marvel"
+										alt="Link para o projeto Marvel Heroes Search" /></a>
+							</div>
+						</div>
+						<h4 class="tools">Tecnologias</h4>
+						<ul>
+							<li>Styled Components</li>
+							<li>React</li>
+							<li>TypeScript</li>
+							<li>JavaScript</li>
+							<li>Fetch API</li>
+							<li>Git</li>
+						</ul>
+					</li>
+					<li>
+						<h3 class="title">Pokedex</h3>
+						<p>A aplicação apresenta uma lista de Pokémon, permitindo que o usuário selecione um para
+							acessar informações. O modal exibe duas abas: uma com detalhes sobre a história,
+							habilidades, evolução e curiosidades do Pokémon, e outra com os status básicos, como pontos
+							de vida, ataque, defesa e velocidade.</p>
+						<p>Acesse o projeto:</p>
+						<div class="projects-icons">
+							<div class="project-link">
+								<a href="https://github.com/HeloisaFelizardo/pokedex"
+									title="Link para o repositório do Github" target="_blank"><img
+										src="assets/img/icons/github.svg" alt="Link para o repositório do Github" /></a>
+							</div>
+							<div class="project-link">
+								<a href="https://heloisafelizardo.github.io/pokedex/"
+									title="Link para o projeto Pokedex" target="_blank"><img
+										src="assets/img/icons/pokedex.png" alt="Link para o projeto Pokedex" /></a>
+							</div>
+						</div>
+						<h4 class="tools">Tecnologias</h4>
+						<ul>
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>JavaScript</li>
+							<li>Fetch API</li>
+							<li>Git</li>
+						</ul>
+					</li>
 				</ul>
-			</header>
+			</div>
+		</section>
 
-			<section class="accordion">
-				<button class="trigger" type="button"><h2>Skills</h2></button>
-				<div class="content">
-					<div class="skills">
-						<section class="tools">
-							<h3 class="title">Hard Skills</h3>
-							<ul></ul>
-						</section>
+		<section class="accordion">
+			<button class="trigger" type="button">
+				<h2>Experiência profissional</h2>
+			</button>
+			<div class="content">
+				<ul class="experience">
+					<li>
+						<h3 class="title">Dev Front-End</h3>
+						<span class="company">Freelancer</span>
+						<span class="period">Jan 2019 - Dez 2020</span>
+						<p>
+							Criação e desenvolvimento completo de pequenos projetos para Desktop e
+							<span>Mobile</span>
+							, utilizando apenas
+							<span>HTML</span>
+							,
+							<span>CSS</span>
+							,
+							<span>JavaScript</span>
+							.
+						</p>
+					</li>
+					<li>
+						<h3 class="title">Dev Front-End</h3>
+						<span class="company">Level Up Brasil</span>
+						<span class="period">Jan 2015 - Fev 2016</span>
+						<p>
+							Desenvolvimento e manutenção de projetos e Landing Pages em
+							<span>HTML</span>
+							,
+							<span>CSS</span>
+							,
+							<span>JQuery</span>
+							.
+						</p>
+						<p>
+							Desenvolvimento Front-End
+							<span>Mobile First</span>
+							da Central de suporte.
+						</p>
+					</li>
+					<li>
+						<h3 class="title">Dev Front-End</h3>
+						<span class="company">Naked Brasil</span>
+						<span class="period">Ago 2013 - Abr 2014</span>
+						<p>
+							Desenvolvimento e manutenção do site da Oi em
+							<span>HTML</span>
+							,
+							<span>CSS</span>
+							,
+							<span>JavaScript</span>
+							,
+							<span>JQuery</span>
+							.
+						</p>
+					</li>
+					<li>
+						<h3 class="title">Dev Front-End</h3>
+						<span class="company">Digital Box</span>
+						<span class="period">Abr 2013 - Jul 2013</span>
+						<p>
+							Manutenção de projetos para Desktop e
+							<span>Mobile</span>
+							em
+							<span>HTML</span>
+							,
+							<span>CSS</span>
+							.
+						</p>
+					</li>
+					<li>
+						<h3 class="title">Dev Front-End</h3>
+						<span class="company">Ultrahaus Digital</span>
+						<span class="period">Dez 2012 - Mar 2013</span>
+						<p>
+							Desenvolvimento e manutenção de projetos para Desktop e
+							<span>Mobile</span>
+							em
+							<span>HTML</span>
+							,
+							<span>CSS</span>
+							,
+							<span>jQuery</span>
+							,
+							<span>Mootools</span>
+							.
+						</p>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<section class="accordion">
+			<button class="trigger" type="button">
+				<h2>Idiomas</h2>
+			</button>
+			<div class="content">
+				<ul class="languages">
+					<li>Português (Nativo)</li>
+					<li>Inglês (Leitura e escrita)</li>
+				</ul>
+			</div>
+		</section>
+	</div>
 
-						<section class="personal">
-							<h3 class="title">Soft Skills</h3>
-							<ul></ul>
-						</section>
-					</div>
-				</div>
-			</section>
-			<section class="accordion">
-				<button class="trigger" type="button"><h2>Educação</h2></button>
-				<div class="content">
-					<ul class="education" id="education"></ul>
-				</div>
-			</section>
+	<script src="./assets/js/index.js" type="module"></script>
+	<script src="./assets/js/main.js"></script>
+</body>
 
-			<section class="accordion">
-				<button class="trigger" type="button">
-					<h2>Projetos</h2>
-				</button>
-				<div class="content">
-					<ul class="projects">
-						<h3 class="year">2023</h3>
-						<li>
-							<h3 class="title">MediFlora</h3>
-							<p>Projeto criado do zero, no curso livre Descodificadas. Em resumo, o projeto utiliza tecnologias web padrão (HTML, CSS e JavaScript) para criar uma página informativa sobre chás naturais e ervas medicinais oferecidos pela "MediFlora". Ele incorpora recursos de design, interatividade e otimização para mecanismos de busca e redes sociais, tornando-o uma página completa e funcional.</p>
-							<p>Acesse o projeto:</p>
-							<div class="projects-icons">
-								<div class="project-link">
-									<a href="https://github.com/HeloisaFelizardo/desafio-landing-page" title="Link para o repositório do Github" target="_blank"><img src="assets/img/icons/github.svg" alt="Link para o repositório do Github" /></a>
-								</div>
-								<div class="project-link">
-									<a href="https://heloisafelizardo.github.io/desafio-landing-page" title="Link para a Landing Page MediFlora" target="_blank"><img src="assets/img/icons/mediflora.svg" class="marvel" alt="Link para a Landing Page MediFlora" /></a>
-								</div>
-							</div>
-							<h4 class="tools">Tecnologias</h4>
-							<ul>
-								<li>HTML</li>
-								<li>CSS</li>
-								<li>JavaScript</li>
-								<li>Meta Tags</li>
-								<li>Vídeo Incorporado</li>
-								<li>Responsividade</li>
-								<li>Metadados para Redes Sociais</li>
-							</ul>
-						</li>
-						<li>
-							<h3 class="title">Github API Project</h3>
-							<p>Esse projeto utiliza a API do GitHub para buscar repositórios de um usuário. Ele importa módulos, cria uma instância do FetchWrapper para as requisições, a função "renderizar" atualiza a lista de repositórios com base no nome de usuário. Um ouvinte de evento é usado no formulário para inserir o nome de usuário e a exibição inicial dos repositórios é feita.</p>
-							<p>Acesse o projeto:</p>
-							<div class="projects-icons">
-								<div class="project-link">
-									<a href="https://github.com/HeloisaFelizardo/Github-API-Project" title="Link para o repositório do Github" target="_blank"><img src="assets/img/icons/github.svg" alt="Link para o repositório do Github" /></a>
-								</div>
-								<div class="project-link">
-									<a href="https://heloisafelizardo.github.io/Github-API-Project/" title="Link para o projeto GitHub API Project" target="_blank"><img src="assets/img/icons/icons-github.svg" class="marvel" alt="Link para o projeto GitHub API Project" /></a>
-								</div>
-							</div>
-							<h4 class="tools">Tecnologias</h4>
-							<ul>
-								<li>HTML</li>
-								<li>CSS</li>
-								<li>JavaScript</li>
-								<li>Fetch API</li>
-								<li>Git</li>
-								<li>Github</li>
-							</ul>
-						</li>
-						<li>
-							<h3 class="title">Marvel App</h3>
-							<p>Aplicação de três telas, onde os usuários podem pesquisar heróis por nome, ver uma lista de heróis encontrados com miniaturas e acessar uma descrição sobre o herói selecionado.</p>
-
-							<p>Acesse o projeto:</p>
-							<div class="projects-icons">
-								<div class="project-link">
-									<a href="https://github.com/HeloisaFelizardo/Marvel-Heroes-Search-App" title="Link para o repositório do Github" target="_blank"><img src="assets/img/icons/github.svg" alt="Link para o repositório do Github" /></a>
-								</div>
-								<div class="project-link">
-									<a href="https://heloisafelizardo.github.io/Marvel-Heroes-Search-App/" title="Link para o projeto Marvel Heroes Search" target="_blank"><img src="assets/img/icons/marvel.svg" class="marvel" alt="Link para o projeto Marvel Heroes Search" /></a>
-								</div>
-							</div>
-							<h4 class="tools">Tecnologias</h4>
-							<ul>
-								<li>Styled Components</li>
-								<li>React</li>
-								<li>TypeScript</li>
-								<li>JavaScript</li>
-								<li>Fetch API</li>
-								<li>Git</li>
-							</ul>
-						</li>
-						<li>
-							<h3 class="title">Pokedex</h3>
-							<p>A aplicação apresenta uma lista de Pokémon, permitindo que o usuário selecione um para acessar informações. O modal exibe duas abas: uma com detalhes sobre a história, habilidades, evolução e curiosidades do Pokémon, e outra com os status básicos, como pontos de vida, ataque, defesa e velocidade.</p>
-							<p>Acesse o projeto:</p>
-							<div class="projects-icons">
-								<div class="project-link">
-									<a href="https://github.com/HeloisaFelizardo/pokedex" title="Link para o repositório do Github" target="_blank"><img src="assets/img/icons/github.svg" alt="Link para o repositório do Github" /></a>
-								</div>
-								<div class="project-link">
-									<a href="https://heloisafelizardo.github.io/pokedex/" title="Link para o projeto Pokedex" target="_blank"><img src="assets/img/icons/pokedex.png" alt="Link para o projeto Pokedex" /></a>
-								</div>
-							</div>
-							<h4 class="tools">Tecnologias</h4>
-							<ul>
-								<li>HTML</li>
-								<li>CSS</li>
-								<li>JavaScript</li>
-								<li>Fetch API</li>
-								<li>Git</li>
-							</ul>
-						</li>
-					</ul>
-				</div>
-			</section>
-
-			<section class="accordion">
-				<button class="trigger" type="button"><h2>Experiência profissional</h2></button>
-				<div class="content">
-					<ul class="experience">
-						<li>
-							<h3 class="title">Dev Front-End</h3>
-							<span class="company">Freelancer</span>
-							<span class="period">Jan 2019 - Dez 2020</span>
-							<p>
-								Criação e desenvolvimento completo de pequenos projetos para Desktop e
-								<span>Mobile</span>
-								, utilizando apenas
-								<span>HTML</span>
-								,
-								<span>CSS</span>
-								,
-								<span>JavaScript</span>
-								.
-							</p>
-						</li>
-						<li>
-							<h3 class="title">Dev Front-End</h3>
-							<span class="company">Level Up Brasil</span>
-							<span class="period">Jan 2015 - Fev 2016</span>
-							<p>
-								Desenvolvimento e manutenção de projetos e Landing Pages em
-								<span>HTML</span>
-								,
-								<span>CSS</span>
-								,
-								<span>JQuery</span>
-								.
-							</p>
-							<p>
-								Desenvolvimento Front-End
-								<span>Mobile First</span>
-								da Central de suporte.
-							</p>
-						</li>
-						<li>
-							<h3 class="title">Dev Front-End</h3>
-							<span class="company">Naked Brasil</span>
-							<span class="period">Ago 2013 - Abr 2014</span>
-							<p>
-								Desenvolvimento e manutenção do site da Oi em
-								<span>HTML</span>
-								,
-								<span>CSS</span>
-								,
-								<span>JavaScript</span>
-								,
-								<span>JQuery</span>
-								.
-							</p>
-						</li>
-						<li>
-							<h3 class="title">Dev Front-End</h3>
-							<span class="company">Digital Box</span>
-							<span class="period">Abr 2013 - Jul 2013</span>
-							<p>
-								Manutenção de projetos para Desktop e
-								<span>Mobile</span>
-								em
-								<span>HTML</span>
-								,
-								<span>CSS</span>
-								.
-							</p>
-						</li>
-						<li>
-							<h3 class="title">Dev Front-End</h3>
-							<span class="company">Ultrahaus Digital</span>
-							<span class="period">Dez 2012 - Mar 2013</span>
-							<p>
-								Desenvolvimento e manutenção de projetos para Desktop e
-								<span>Mobile</span>
-								em
-								<span>HTML</span>
-								,
-								<span>CSS</span>
-								,
-								<span>jQuery</span>
-								,
-								<span>Mootools</span>
-								.
-							</p>
-						</li>
-					</ul>
-				</div>
-			</section>
-			<section class="accordion">
-				<button class="trigger" type="button"><h2>Idiomas</h2></button>
-				<div class="content">
-					<ul class="languages">
-						<li>Português (Nativo)</li>
-						<li>Inglês (Leitura e escrita)</li>
-					</ul>
-				</div>
-			</section>
-		</div>
-
-		<script src="./assets/js/index.js" type="module"></script>
-		<script src="./assets/js/main.js"></script>
-	</body>
 </html>

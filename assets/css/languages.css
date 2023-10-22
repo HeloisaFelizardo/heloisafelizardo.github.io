@@ -1,3 +1,7 @@
+.light-mode .languages {
+	color: #4609b3;
+}
+
 .languages {
 	display: flex;
 	flex-direction: row;
@@ -5,11 +9,13 @@
 	flex-wrap: wrap;
 	margin: 0;
 }
+
 .languages li {
 	padding: 0.5rem 0;
 	font-weight: 400;
 	margin-right: 1rem;
 }
+
 .languages li::before {
 	content: '';
 	display: inline-block;
