@@ -20,7 +20,7 @@
 				"logo": "https://raw.githubusercontent.com/HeloisaFelizardo/heloisafelizardo.github.io/main/data/imgs/js.png"
 			},
 			{
-				"name": "Algoritmos",
+				"name": "Firebase",
 				"logo": "https://raw.githubusercontent.com/HeloisaFelizardo/heloisafelizardo.github.io/main/data/imgs/node.png"
 			},
 			{
@@ -68,14 +68,14 @@
 	"projects": [
 		{
 			"name": "MediFlora",
-			"description": "Landing Page criada para o projeto Descodificadas. Em resumo, o projeto utiliza tecnologias web padrão (HTML, CSS e JavaScript) para criar uma página informativa sobre chás naturais e ervas medicinais oferecidos pela 'MediFlora'. Ele incorpora recursos de design, interatividade e otimização para mecanismos de busca e redes sociais, tornando-o uma página completa e funcional.",
+			"description": "A Landing Page do projeto Descodificadas é uma página web informativa sobre chás naturais e ervas medicinais da 'MediFlora'. Ela utiliza tecnologias padrão como HTML, CSS e JavaScript, com design atraente, interatividade e otimização para mecanismos de busca e redes sociais. Além disso, integra um banco de dados Firebase para coletar dados de cadastro por meio de formulários, tornando-a completa e funcional.",
 			"urlGithub": "https://github.com/HeloisaFelizardo/desafio-landing-page",
 			"url": "https://heloisafelizardo.github.io/desafio-landing-page",
 			"title": "Link para o repositório do Github",
 			"iconGithub": "https://heloisafelizardo.github.io/assets/img/icons/github.svg",
 			"alt": "Link para a Landing Page MediFlora",
 			"iconProject": "https://heloisafelizardo.github.io/assets/img/icons/mediflora.svg",
-			"technologies": ["HMTL", "CSS", "JavaScript", "MetaTags", "Responsividade", "Metadados para Redes Sociais"]
+			"technologies": ["HMTL", "CSS", "JavaScript", "Firebase", "Responsividade", "Metadados para Redes Sociais"]
 		},
 		{
 			"name": "Github API Project",
