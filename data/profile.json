@@ -80,6 +80,17 @@
 	"languages": ["Português BR", "Inglês (Intermediário)"],
 	"projects": [
 		{
+			"name": "Calculator",
+			"description": "O site implementa uma calculadora básica com operações de adição, subtração, multiplicação e divisão.",
+			"urlGithub": "https://github.com/HeloisaFelizardo/calculator",
+			"url": "https://heloisafelizardo.github.io/calculator",
+			"title": "Link para o repositório do Github",
+			"iconGithub": "https://heloisafelizardo.github.io/assets/img/icons/github.svg",
+			"alt": "Link para o Todo App",
+			"iconProject": "https://heloisafelizardo.github.io/assets/img/icons/calculator.svg",
+			"technologies": ["HMTL", "CSS", "JavaScript"]
+		},
+		{
 			"name": "Todo App",
 			"description": "Este site é um aplicativo de lista de tarefas (Todo App) que oferece uma maneira simples para os usuários gerenciarem suas tarefas diárias. Principais características incluem: Formulário de Adição de Tarefa, Lista de Tarefas, Filtragem de Tarefas, Contagem de Tarefas.",
 			"urlGithub": "https://github.com/HeloisaFelizardo/todo-app",
