@@ -80,6 +80,17 @@
 	"languages": ["Português BR", "Inglês (Intermediário)"],
 	"projects": [
 		{
+			"name": "Todo App",
+			"description": "Este site é um aplicativo de lista de tarefas (Todo App) que oferece uma maneira simples para os usuários gerenciarem suas tarefas diárias. Principais características incluem: Formulário de Adição de Tarefa, Lista de Tarefas, Filtragem de Tarefas, Contagem de Tarefas.",
+			"urlGithub": "https://github.com/HeloisaFelizardo/todo-app",
+			"url": "https://heloisafelizardo.github.io/todo-app/",
+			"title": "Link para o repositório do Github",
+			"iconGithub": "https://heloisafelizardo.github.io/assets/img/icons/github.svg",
+			"alt": "Link para o Todo App",
+			"iconProject": "https://heloisafelizardo.github.io/assets/img/icons/list.svg",
+			"technologies": ["HMTL", "CSS", "JavaScript"]
+		},
+		{
 			"name": "MediFlora",
 			"description": "A Landing Page do projeto Descodificadas é uma página web informativa sobre chás naturais e ervas medicinais da 'MediFlora'. Ela utiliza tecnologias padrão como HTML, CSS e JavaScript, com design atraente, interatividade e otimização para mecanismos de busca e redes sociais. Além disso, integra um banco de dados Firebase para coletar dados de cadastro por meio de formulários, tornando-a completa e funcional.",
 			"urlGithub": "https://github.com/HeloisaFelizardo/desafio-landing-page",
