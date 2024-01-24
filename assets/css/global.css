@@ -6,12 +6,15 @@
 	font-family: 'Neue Machina';
 	src: url('/assets/fonts/neue-machina-regular.otf');
 }
+
 * {
 	box-sizing: border-box;
 }
+
 html {
 	font-size: 16px;
 }
+
 body {
 	background: linear-gradient(300deg, rgba(70, 9, 179, 1) 0%, rgba(2, 0, 9, 1) 30%, rgba(2, 0, 9, 1) 50%, rgba(2, 0, 9, 1) 70%, rgba(70, 9, 179, 1) 100%);
 	background-size: cover;
@@ -19,12 +22,14 @@ body {
 	font-family: 'Fira Sans', sans-serif;
 	color: #e1d7ff;
 }
+
 .light-mode {
 	background: rgb(197, 177, 255);
 	background: linear-gradient(300deg, rgba(197, 177, 255, 1) 0%, rgba(254, 253, 255, 1) 30%, rgba(255, 255, 255, 1) 51%, rgba(253, 252, 255, 1) 70%, rgba(197, 177, 255, 1) 100%);
 	background-size: cover;
 	background-attachment: fixed;
 }
+
 h2 {
 	font-size: 1.125rem;
 	text-align: left;
@@ -33,6 +38,7 @@ h2 {
 	font-weight: 400;
 	line-height: 20px;
 }
+
 h3 {
 	font-size: 0.875rem;
 	margin: 0;
@@ -41,15 +47,18 @@ h3 {
 	color: #19ff44;
 	line-height: 1.5rem;
 }
+
 p {
 	line-height: 1.25rem;
 	font-size: 0.875rem;
 	font-weight: 400;
 	color: #a3a3a3;
 }
+
 p span {
 	color: #fff;
 }
+
 a {
 	color: #ff8900;
 	text-decoration: none;
@@ -58,16 +67,23 @@ a {
 	line-height: 20px;
 	transition: transform 0.3s ease;
 }
+
 a:hover {
 	text-decoration: underline;
 	transform: scale(1.1);
 }
+
 .main {
 	margin: 1rem;
 	padding: 1rem;
 	border-radius: 5px;
 	border: 1px solid #4609b3;
 }
+
+.conteudo p {
+	color: #fff;
+}
+
 @media only screen and (min-width: 768px) {
 	.main {
 		max-width: 1024px;

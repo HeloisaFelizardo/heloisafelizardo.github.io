@@ -25,6 +25,7 @@
 	border-radius: 50%;
 	border: 1px solid #4609b3;
 }
+
 .header .title {
 	text-align: center;
 	font-weight: 300;
@@ -34,9 +35,11 @@
 	padding: 0;
 	line-height: 2.5rem;
 }
+
 .header .title span {
 	color: #19ff44;
 }
+
 .informations {
 	width: 100%;
 	display: flex;
@@ -45,6 +48,7 @@
 	margin: 0;
 	padding: 0;
 }
+
 .informations li {
 	margin: 0.3rem 0.5rem;
 	display: flex;
@@ -52,6 +56,7 @@
 	align-items: center;
 	font-size: 1.125rem;
 }
+
 .light-mode .github,
 .light-mode .email,
 .light-mode .header .title,
@@ -63,6 +68,7 @@
 .informations img {
 	height: 1.5rem;
 }
+
 .informations .icons {
 	display: flex;
 	flex-direction: row;
@@ -70,6 +76,7 @@
 	justify-content: space-around;
 	margin-top: 2rem;
 }
+
 .job::before,
 .location::before {
 	content: '';
@@ -80,18 +87,24 @@
 	background-position: center;
 	margin-right: 1rem;
 }
+
 .informations .job::before {
 	background-image: url('/assets/img/icons/job.svg');
 }
+
 .informations .location::before {
 	background-image: url('/assets/img/icons/location.svg');
 }
+
 .informations .phone::before {
 	background-image: url('/assets/img/icons/phone.svg');
 }
+
 .informations .email::before {
 	background-image: url('/assets/img/icons/email.svg');
 }
+
+
 /* Exemplo de background gradiente em svg
 .main::before {
 	content: '';
@@ -130,15 +143,18 @@
 			'photo informations';
 		margin: 2rem 0 4rem;
 	}
+
 	.header .photo {
 		grid-area: photo;
 		margin: 0 auto;
 	}
+
 	.header .title {
 		grid-area: title;
 		text-align: start;
 		width: 500px;
 	}
+
 	.header .informations {
 		grid-area: informations;
 	}

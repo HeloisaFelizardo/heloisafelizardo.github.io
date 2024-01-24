@@ -49,7 +49,13 @@ const textLoad = () => {
 textLoad(); // Inicia o carregamento do texto no título
  */
 const text = document.querySelector('.header .title span');
-const words = ['Heloisa Felizardo!', 'Web Developer.', 'Freelancer.', 'Designer.', 'Heloisa Felizardo!'];
+const words = [
+	'Heloisa Felizardo!',
+	'Desenvolvedora de Software.',
+	'Desenvolvedora Web.',
+	'Entusiasta de CyberSecurity.',
+	'Heloisa Felizardo!',
+];
 let index = 0;
 let isFirstTime = true;
 
