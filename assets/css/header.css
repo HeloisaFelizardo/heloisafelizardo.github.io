@@ -61,7 +61,8 @@
 .light-mode .email,
 .light-mode .header .title,
 .light-mode .job,
-.light-mode .location {
+.light-mode .location,
+.light-mode .curriculum {
 	filter: brightness(0) saturate(100%) invert(17%) sepia(61%) saturate(7331%) hue-rotate(265deg) brightness(66%) contrast(131%);
 }
 
