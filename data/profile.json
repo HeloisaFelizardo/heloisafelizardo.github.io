@@ -98,14 +98,14 @@
 			"url": "https://heloisafelizardo.github.io/sva",
 			"title": "Link para o repositório do Github",
 			"iconGithub": "https://heloisafelizardo.github.io/assets/img/icons/github.svg",
-			"alt": "Link para o Todo App",
+			"alt": "Link para o SVA",
 			"iconProject": "https://heloisafelizardo.github.io/assets/img/icons/sva.svg",
 			"technologies": [
 				"HMTL",
 				"CSS",
 				"JavaScript",
 				"Biblioteca leafletjs.com",
-				"https://openweathermap.org"
+				"openweathermap.org"
 			]
 		},
 		{
