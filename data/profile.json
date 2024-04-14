@@ -111,7 +111,7 @@
 			"url": "https://heloisafelizardo.github.io/calculator",
 			"title": "Link para o repositório do Github",
 			"iconGithub": "https://heloisafelizardo.github.io/assets/img/icons/github.svg",
-			"alt": "Link para o Todo App",
+			"alt": "Link para a Calculadora",
 			"iconProject": "https://heloisafelizardo.github.io/assets/img/icons/calculator.svg",
 			"technologies": ["HMTL", "CSS", "JavaScript"]
 		},
