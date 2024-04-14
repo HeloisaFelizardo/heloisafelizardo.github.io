@@ -93,7 +93,7 @@
 	"projects": [
 		{
 			"name": "SVA - Sistema de Vigilância de Alagamentos",
-			"description": "Durante o semestre, desenvolvi um projeto de extensão para informar a comunidade sobre alertas de chuvas intensas e pontos de alagamento. O projeto consiste em um mapa interativo que mostra áreas afetadas, um sistema de atualizações em tempo real sobre as condições climáticas e alagamentos, e dicas de segurança para ajudar a comunidade a se preparar e responder adequadamente a essas situações.",
+			"description": "Durante o semestre, desenvolvi um projeto de extensão para informar a comunidade sobre alertas de chuvas intensas e pontos de alagamento. O projeto consiste em um mapa interativo que mostra áreas afetadas, um sistema de atualizações em tempo real sobre as condições climáticas e alagamentos, e dicas de segurança para ajudar a comunidade a se preparar e responder adequadamente a essas situações. Feito especialmente para os moradores do bairro Fazendinha - Tamoios - RJ",
 			"urlGithub": "https://github.com/HeloisaFelizardo/sva",
 			"url": "https://heloisafelizardo.github.io/sva",
 			"title": "Link para o repositório do Github",
